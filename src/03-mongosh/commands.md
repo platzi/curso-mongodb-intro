@@ -19,5 +19,4 @@ show collections
 ```sh
 use("platzi_store")
 db.products.find()
-
 ```
