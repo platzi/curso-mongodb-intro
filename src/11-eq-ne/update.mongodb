@@ -1,0 +1,12 @@
+use("platzi_store")
+
+db.inventory.updateMany(
+  // query - operators
+  { qty: { $ne: 20 } },
+  // update - operators
+  {
+    $inc: {
+      qty: 10
+    }
+  }
+)
