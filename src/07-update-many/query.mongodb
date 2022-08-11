@@ -1,0 +1,5 @@
+use("sample_training")
+
+db.zips.find({ city: "CLEVELAND" })
+// 2369 => 3369
+// 1244 => 2244
